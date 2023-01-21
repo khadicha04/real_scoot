@@ -1,0 +1,40 @@
+.advice{
+    padding: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 200px;
+    .advice__boxes{
+        .advice__icons{
+            padding: 30px;
+            border-radius: 50%;
+            width:96px;
+            height: 96px;
+            background: var(--yellow);
+        }
+        h3{
+            padding: 40px 0px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -1.07143px;
+            color: var(--darknevy);
+        }
+        .advice__icontext{
+            width: 288px;
+            font-family: 'Lexend Deca';
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: var(--dimgrey);
+        }
+    }
+}
+.advice__line{
+    position: relative;
+    width: 1111px;
+    height: 1px;
+    left: -20px;
+    top: 239px;
+    border: 8px solid var(--lightgrey);
+    z-index: -10;
+}

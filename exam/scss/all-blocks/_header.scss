@@ -1,0 +1,30 @@
+.header{
+    padding: 20px;
+    .container{
+        .navbar{
+            .header__section{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .header__list{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    .header__item{
+                        a{
+                            padding: 20px;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 25px;
+                            color: var(--dimgrey);
+                            transition: 0.4s;
+                        }
+                        a:active{
+                            color: var(--yellow);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

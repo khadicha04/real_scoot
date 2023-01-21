@@ -1,0 +1,14 @@
+.header__btn{
+    cursor: pointer;
+    width: 180px;
+    height: 53px;
+    background: var(--yellow);
+    border: none;
+    color: var(--white);
+    transition: 0.4s;
+}
+.header__btn:hover{
+    background: none;
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
+}

@@ -1,0 +1,51 @@
+.circles{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    .circles__textsection{
+        padding: 180px;
+        h2{
+            width: 400px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: var(--darknevy);
+        }
+                .circles__text{
+                    padding: 25px 0px;
+                    width: 370px;
+                    font-family: 'Lexend Deca';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: var(--dimgrey);
+                }       
+    }
+    .circles__section{
+        .circle__img{
+            padding: 130px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .circle__circleimg{
+                padding: 0px 106px;
+                border-radius: 50%;
+            }
+        }
+        .circle__mark{
+            position: relative;
+            bottom: 280px;
+            left: 18px;
+        }
+    }
+}
+.circle__mark--second{
+    position: relative;
+    bottom: 590px;
+    left: 0px;
+}
+.circle__mark--third{
+    position: relative;
+    bottom: 500px;
+    left: 397px;
+}
